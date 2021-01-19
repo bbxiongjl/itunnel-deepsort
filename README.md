@@ -1,8 +1,8 @@
 # DEEP SORT YOLOV3 PYTORCH
 
+将yolov5+deepsort应用于隧道视频监控
 
 
-目标检测：基于U版yolov3（版本比较早） https://github.com/ultralytics/yolov3 
 
 ReID部分： https://github.com/pprp/reid_for_deepsort 
 
