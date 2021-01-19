@@ -12,6 +12,11 @@ SORT参考： https://github.com/abewley/sort
 
 
 对车辆re-id部分的网络进行完善
+
+
+add new function      branch
+
+
 ## 新特性
 
 目标检测部分添加了常用的注意力模块CBAM, SE
