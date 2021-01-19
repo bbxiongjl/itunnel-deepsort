@@ -4,12 +4,14 @@
 
 
 
-ReID部分： https://github.com/pprp/reid_for_deepsort 
+ReID部分： https://github.com/pprp/reid_for_deepsort
 
-Deep SORT参考:  https://github.com/ZQPei/deep_sort_pytorch 
+Deep SORT参考:  https://github.com/ZQPei/deep_sort_pytorch
 
-SORT参考： https://github.com/abewley/sort 
+SORT参考： https://github.com/abewley/sort
 
+
+对车辆re-id部分的网络进行完善
 ## 新特性
 
 目标检测部分添加了常用的注意力模块CBAM, SE
@@ -31,7 +33,7 @@ deep_sort
 
  - deep: reid模块来自 https://github.com/pprp/reid_for_deepsort
  - sort： deep sort沿用了sort中的一些模块，是最核心的部分
- 
+
 miniversion: 使用cv2中的跟踪模块+yolov3进行跟踪，效果较差
 
 sort: sort算法需要的依赖文件
@@ -70,13 +72,12 @@ test.py: 测试yolov3
 
 状态转移：
 
- ![状态转换图](README.assets/20200415100437671.png) 
+ ![状态转换图](README.assets/20200415100437671.png)
 
 整体框架：
 
- ![图片来自知乎Harlek](README.assets/20200412221106751.png) 
+ ![图片来自知乎Harlek](README.assets/20200412221106751.png)
 
 流程图：
 
- ![知乎@猫弟总结的deep sort流程图](README.assets/2020041418343015.png) 
-
+ ![知乎@猫弟总结的deep sort流程图](README.assets/2020041418343015.png)
